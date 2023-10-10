@@ -1,5 +1,7 @@
 .but{
-    margin-left: 365px;
+    display: flex;
+    margin-left: 750px;
+    justify-self: center;
 }
 body{
     background-image: url('images/cinema.jpg');
@@ -19,5 +21,8 @@ p{
     font-style: italic;
     font-weight: bold;
     font-size: 50px;
+}
+h3{ 
+    color:white;
 }
     
