@@ -1,0 +1,23 @@
+.but{
+    margin-left: 365px;
+}
+body{
+    background-image: url('images/385520265_1344884286176650_3113273582495447594_n.jpg');
+    background-size: 100% 100%;
+}
+#enregistrer{
+    display: flex;
+    justify-content: center;
+}
+.filmsname{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color:blue;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+}
+    

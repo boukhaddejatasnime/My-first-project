@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buy your ticket</title>
+</head>
+<body>
+    <form action="formulaire"><fieldset>
+        <legend><h3>Ticket Formulaire</h3></legend>
+        <form action-xhr="action_form.php"
+        target="_top"
+         method="POST">
+<i>e-mail</i> <input type="email" name="email" size="20" maxlength="50" class="box" autocomplete="on"><br> <br>     
+<i>password</i> <input type="password" name="psswd" size="20" maxlength="20" class="box" autocomplete="off"><br> <br>
+<i>place</i><input type = "text" list = "place" name="place"> 
+<datalist id = "place">
+<option value = "Movie room">
+<option value = "Sofas">
+<option value = "in drive">
+</datalist>
+
+<p>Gender : </p>
+            <input type="radio"> 
+            <label for="c">crime</label>      
+            <input type="radio">
+            <label for="d">drama</label>
+            <input type="radio">
+            <label for="r">romance</label>
+            <input type="radio">
+            <label for="a">action</label>
+            <input type="radio">
+            <label for="c">comedy</label>
+<br><a href="film.html">List of movies</a></br>
+<br>
+</form>
+<p>Age category
+    (just for confirm the film is suitable for your age):</p>
+<input type="radio">
+<label for="age">Adult</label>
+<input type="radio">
+<label for="age">Teenager</label>
+<input type="radio">
+<label for="age">Child</label>
+
+<p>Payment :</p>
+<input type="checkbox" name="p" id="">
+<label for="c"> Online(via credit card)</label>
+<input type="checkbox" name="p" id="">
+<label for="c">in real live(cash)</label>
+<p>click:</p>
+    </fieldset></form>
+
+    
+</body>
+</html>

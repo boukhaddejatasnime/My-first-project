@@ -5,28 +5,18 @@ function Movies(name,images,description,cast,price){
         date:new Date(),
         description:description,
         cast:cast,
-        price:price()
+        price:price
     }
 }
 
 
-var movie1=Movies("choose your place",["images/movie.avif","images/drive.webp","images/canape.jpg","images/cinema.jpg"],"Romance/Drama","Kate Winslet/Leonardo DiCaprio",10)
+var movie1=Movies("Titanic",["https://sf1.closermag.fr/wp-content/uploads/closermag/2023/05/titanic-sait-enfin-rose-meurt-fin.jpeg","https://variety.com/wp-content/uploads/2023/01/Screen-Shot-2023-01-12-at-10.56.39-AM.png"],"Romance/Drama","Kate Winslet/Leonardo DiCaprio",10)
 console.log(movie1,"img")
-$('#change').append(`<h3>${movie1.date}</h3>
-<p>Price : ${movie1.price()}</p>
+$('#change').append(`<h3>${movie1.name}</h3>
+<p>Description :${movie1.description}</p>
+<p>Price : ${movie1.price}</p>
 `)
 
-function price(){
-    if(movie1.images[1]){
-        console.log("price:8dt")
-    }
-    if(movie1.images[2]){
-        console.log("price:20dt")
-    }
-    else if(movie1.images[3]){
-        console.log("price:15dt")
-    }
-}
 
 
 function changeimg (item){
